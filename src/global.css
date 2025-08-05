@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+@font-face {
+	font-family: "source-sans-3";
+	src: url(/public/assets/fonts/SourceSans3-VariableFont_wght.ttf);
+}
+
+@font-face {
+	font-family: "farro";
+	src: url(/public/assets/fonts/Farro-Regular.ttf);
+}
