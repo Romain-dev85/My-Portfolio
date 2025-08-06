@@ -21,10 +21,49 @@
 		width: 88px;
 		border-radius: 100%;
 	}
+}
+.nav-menu {
+	display: flex;
+	gap: 16px;
+	margin-right: 32px;
+}
+.bm-burger-button {
+	position: absolute;
+	width: 34px;
+	height: 20px;
+	right: 32px;
+	top: 48px;
+}
 
-	section:last-of-type {
-		display: flex;
-		gap: 16px;
-		margin-right: 32px;
+.bm-burger-bars {
+	background: rgb(0, 0, 0);
+}
+
+.bm-menu {
+	background: var(--bg-color-button-and-header);
+	padding: 2.5em 1.5em 0;
+	font-size: 1.15em;
+}
+
+.menu-item {
+	display: block;
+	color: var(--bg-color-font);
+	padding: 0.5em 0;
+	text-decoration: none;
+}
+
+.bm-cross {
+	background: #bdc3c7;
+}
+
+@media screen and (max-width: 768px) {
+	.nav-menu {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	.bm-burger-button {
+		display: none;
 	}
 }
