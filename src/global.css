@@ -19,11 +19,15 @@ h2,
 h3,
 h4 {
 	font-family: var(--font-family-title);
+	margin: 0;
 }
 
 h1 {
 	font-size: 60px;
-	font-weight: lighter;
+}
+
+main {
+	background-color: var(--bg-color-main);
 }
 
 @font-face {
@@ -38,6 +42,7 @@ h1 {
 
 :root {
 	--bg-color-button-and-header: rgb(217, 217, 217);
+	--bg-color-main: rgb(231, 231, 231);
 	--bg-color-font: rgb(51, 51, 51);
 	--font-family-body: "farro, sans-serif";
 	--font-family-title: "source-sans-3, sans-serif";
