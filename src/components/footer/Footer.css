@@ -1,0 +1,15 @@
+.footer-container {
+	background-color: var(--bg-color-footer);
+	text-align: center;
+	padding: 8px;
+
+	img {
+		width: 60px;
+	}
+
+	p {
+		color: rgb(242, 242, 242);
+		margin-bottom: 8px;
+		margin-top: 0;
+	}
+}
