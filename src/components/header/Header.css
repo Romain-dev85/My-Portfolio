@@ -1,0 +1,30 @@
+.header-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-family: var(--font-family-body);
+	background-color: var(--bg-color-button-and-header);
+
+	p,
+	a {
+		color: var(--bg-color-font);
+	}
+
+	section:first-of-type {
+		display: flex;
+		align-items: center;
+		gap: 32px;
+		margin: 16px;
+	}
+
+	section:first-of-type img {
+		width: 88px;
+		border-radius: 100%;
+	}
+
+	section:last-of-type {
+		display: flex;
+		gap: 16px;
+		margin-right: 32px;
+	}
+}
