@@ -50,3 +50,9 @@ main {
 	--font-family-body: "farro, sans-serif";
 	--font-family-title: "source-sans-3, sans-serif";
 }
+
+main {
+	@media screen and (min-width: 768px) {
+		min-height: calc(100vh - 200px);
+	}
+}
