@@ -32,8 +32,8 @@ main {
 }
 
 @font-face {
-	font-family: "source-sans-3";
-	src: url(/public/assets/fonts/SourceSans3-VariableFont_wght.ttf);
+	font-family: "source-sans-pro";
+	src: url(/public/assets/fonts/SourceSansPro-SemiBold.ttf);
 }
 
 @font-face {
@@ -47,8 +47,8 @@ main {
 	--color-font: rgb(51, 51, 51);
 	--bg-color-footer: rgb(0, 0, 0);
 	--color-title: rgb(0, 0, 0);
-	--font-family-body: "farro, sans-serif";
-	--font-family-title: "source-sans-3, sans-serif";
+	--font-family-body: "farro";
+	--font-family-title: "source-sans-pro";
 }
 
 main {
