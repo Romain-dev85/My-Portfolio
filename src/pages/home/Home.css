@@ -43,3 +43,12 @@
 		margin-bottom: 16px;
 	}
 }
+
+@media screen and (min-width: 769px) {
+	.home-container {
+		ul {
+			width: 500px;
+			gap: 32px;
+		}
+	}
+}
