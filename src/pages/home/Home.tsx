@@ -7,6 +7,7 @@ import {
 	SiHtml5,
 	SiJavascript,
 	SiMysql,
+	SiNodedotjs,
 	SiReact,
 	SiTypescript,
 } from "react-icons/si";
@@ -32,6 +33,10 @@ const Home = () => {
 				<li>
 					<SiTypescript />
 					Typescript
+				</li>
+				<li>
+					<SiNodedotjs />
+					Node.js
 				</li>
 				<li>
 					<SiExpress />
