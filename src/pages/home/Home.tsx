@@ -1,5 +1,15 @@
 import { Link } from "react-router";
 import "./Home.css";
+import {
+	SiCss3,
+	SiExpress,
+	SiGit,
+	SiHtml5,
+	SiJavascript,
+	SiMysql,
+	SiReact,
+	SiTypescript,
+} from "react-icons/si";
 
 const Home = () => {
 	return (
@@ -11,15 +21,43 @@ const Home = () => {
 			</p>
 			<h2>MES COMPETENCES</h2>
 			<ul>
-				<li>React</li>
-				<li>Javascript</li>
-				<li>Typescript</li>
-				<li>HTML</li>
-				<li>CSS</li>
-				<li>Express.js</li>
-				<li>MySQL</li>
+				<li>
+					<SiReact />
+					React
+				</li>
+				<li>
+					<SiJavascript />
+					Javascript
+				</li>
+				<li>
+					<SiTypescript />
+					Typescript
+				</li>
+				<li>
+					<SiExpress />
+					Express.js
+				</li>
+				<li>
+					<SiMysql />
+					Mysql
+				</li>
+				<li>
+					<SiGit />
+					Git
+				</li>
+				<li>
+					<SiHtml5 />
+					Html
+				</li>
+				<li>
+					<SiCss3 />
+					Css
+				</li>
 			</ul>
-			<Link to="">PROJETS</Link>
+			<nav>
+				<Link to="">PROJETS</Link>
+				<Link to="">CONTACT</Link>
+			</nav>
 		</div>
 	);
 };
