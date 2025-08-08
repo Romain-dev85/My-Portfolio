@@ -15,7 +15,7 @@ const Header = () => {
 				<section className="nav-menu">
 					<Link to="/">ACCUEIL</Link>
 					<Link to="/">A PROPOS</Link>
-					<Link to="/">PROJETS</Link>
+					<Link to="/project">PROJETS</Link>
 					<Link to="/">CV</Link>
 					<Link to="/">CONTACT</Link>
 				</section>
@@ -45,7 +45,7 @@ const Header = () => {
 				<Link
 					id="projects"
 					className="menu-item"
-					to="/"
+					to="/project"
 					onClick={() => setIsOpen(false)}
 				>
 					PROJETS

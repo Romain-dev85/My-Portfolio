@@ -60,7 +60,7 @@ const Home = () => {
 				</li>
 			</ul>
 			<nav>
-				<Link to="">PROJETS</Link>
+				<Link to="/project">PROJETS</Link>
 				<Link to="">CONTACT</Link>
 			</nav>
 		</div>
