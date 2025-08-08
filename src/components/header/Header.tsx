@@ -9,12 +9,16 @@ const Header = () => {
 		<>
 			<nav className="header-container">
 				<section>
-					<img src="/assets/images/me.png" alt="miniature de Romain Auvinet" />
+					<Link to="/">
+						<img
+							src="/assets/images/me.png"
+							alt="miniature de Romain Auvinet"
+						/>
+					</Link>
 					<p>ROMAIN AUVINET</p>
 				</section>
 				<section className="nav-menu">
 					<Link to="/">ACCUEIL</Link>
-					<Link to="/">A PROPOS</Link>
 					<Link to="/project">PROJETS</Link>
 					<Link to="/">CV</Link>
 					<Link to="/">CONTACT</Link>
@@ -33,14 +37,6 @@ const Header = () => {
 					onClick={() => setIsOpen(false)}
 				>
 					ACCUEIL
-				</Link>
-				<Link
-					id="about"
-					className="menu-item"
-					to="/"
-					onClick={() => setIsOpen(false)}
-				>
-					A PROPOS
 				</Link>
 				<Link
 					id="projects"

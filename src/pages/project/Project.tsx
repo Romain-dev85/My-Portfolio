@@ -26,10 +26,7 @@ const Project = () => {
 					</div>
 					<div>
 						<h3>Gard'Malin</h3>
-						<a
-							href="https://github.com/wildcodeschool-2025-03/JS-WestDevs-P3-GardMalin"
-							target="blank"
-						>
+						<a href="https://github.com/Romain-dev85/GardMalin" target="blank">
 							<SiGithub />
 						</a>
 						<p>
@@ -65,7 +62,7 @@ const Project = () => {
 					<div>
 						<h3>Savor Safari</h3>
 						<a
-							href="https://github.com/wildcodeschool-2025-03/JS-WestDevs-P2-SavorSafari"
+							href="https://github.com/Romain-dev85/SavorSafari"
 							target="blank"
 						>
 							<SiGithub />
