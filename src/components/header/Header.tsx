@@ -28,7 +28,7 @@ const Header = () => {
 					>
 						CV <MdOutlineFileDownload />
 					</a>
-					<Link to="/">CONTACT</Link>
+					<Link to="/contact">CONTACT</Link>
 				</section>
 			</nav>
 			<Menu
@@ -66,7 +66,7 @@ const Header = () => {
 				<Link
 					id="contact"
 					className="menu-item"
-					to="/"
+					to="/contact"
 					onClick={() => setIsOpen(false)}
 				>
 					CONTACT
