@@ -2,6 +2,7 @@ import { slide as Menu } from "react-burger-menu";
 import { Link } from "react-router";
 import "./Header.css";
 import { useState } from "react";
+import { MdOutlineFileDownload } from "react-icons/md";
 
 const Header = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +21,9 @@ const Header = () => {
 				<section className="nav-menu">
 					<Link to="/">ACCUEIL</Link>
 					<Link to="/project">PROJETS</Link>
-					<Link to="/">CV</Link>
+					<a href="/assets/images/CV.auvinet_romain.pdf" target="blank">
+						CV <MdOutlineFileDownload />
+					</a>
 					<Link to="/">CONTACT</Link>
 				</section>
 			</nav>
@@ -46,14 +49,15 @@ const Header = () => {
 				>
 					PROJETS
 				</Link>
-				<Link
+				<a
+					href="/assets/images/CV.auvinet_romain.pdf"
+					target="blank"
 					id="cv"
 					className="menu-item"
-					to="/"
 					onClick={() => setIsOpen(false)}
 				>
-					CV
-				</Link>
+					CV <MdOutlineFileDownload />
+				</a>
 				<Link
 					id="contact"
 					className="menu-item"
