@@ -72,7 +72,7 @@ const Home = () => {
 			</section>
 			<nav>
 				<Link to="/project">PROJETS</Link>
-				<Link to="">CONTACT</Link>
+				<Link to="/contact">CONTACT</Link>
 			</nav>
 		</div>
 	);
