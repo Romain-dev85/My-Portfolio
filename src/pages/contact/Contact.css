@@ -1,81 +1,74 @@
-/* .contact-container {
-h1 {
+.contact-container {
 	text-align: center;
+	padding-top: 48px;
 }
 
-form {
-	max-width: 600px;
-	text-align: center;
-	margin: 0 auto;
-}
-input,
-textarea {
-	border: 0;
-	outline: 0;
-	padding: 1em;
-	border-radius: 8px;
-	display: block;
-	width: 100%;
-	margin-top: 1em;
-	resize: none;
-}
+.contact-form {
+	font-family: var(--font-family-body);
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	align-items: center;
+	padding: 32px 0;
+	width: 250px;
+	margin: auto;
 
-#input-submit {
-	cursor: pointer;
-  
-}
-#input-submit:hover {
-	box-shadow:  1px 1px 1px rgba(0, 0, 0, 0.2);
-}
+	label {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 8px;
+	}
 
-textarea {
-	height: 126px;
-}
+	input {
+		border: none;
+		font-family: var(--font-family-body);
+		background-color: var(--bg-color-button-and-header);
+		border-radius: 16px;
+		padding: 8px;
+		width: 250px;
+	}
 
-.half {
-	float: left;
-	width: 48%;
-	margin-bottom: 1em;
-}
+	textarea {
+		border: none;
+		border-radius: 16px;
+		padding: 8px;
+		background-color: var(--bg-color-button-and-header);
+		width: 250px;
+		height: 220px;
+	}
 
-.right {
-	width: 50%;
-}
-
-.left {
-	margin-right: 2%;
-}
-}
-
-@media (max-width: 480px) {
-  .contact-container{
-	.half {
-		width: 100%;
-		float: none;
-		margin-bottom: 0;
+	input[type="submit"] {
+		width: 100px;
+		align-self: end;
+		cursor: pointer;
 	}
 }
-.contact-form:before,
-.contact-form:after {
-	content: " ";
-	display: table;
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+	.contact-form {
+		width: 400px;
+
+		input {
+			width: 400px;
+		}
+
+		textarea {
+			width: 400px;
+		}
+	}
 }
 
-.contact-form:after {
-	clear: both;
+@media screen and (min-width: 992px) {
+	.contact-form {
+		width: 600px;
+
+		input {
+			width: 600px;
+		}
+
+		textarea {
+			width: 600px;
+		}
+	}
 }
-} */
-
-.contact-container {
-  text-align: center;
- }
-
- .contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-
-  align-items: center;
-  
-  
- }
