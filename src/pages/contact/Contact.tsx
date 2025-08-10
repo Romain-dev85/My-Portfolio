@@ -1,6 +1,7 @@
 import React from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
+import { toast } from "react-toastify";
 
 const Contact = () => {
 	const lengthMinMessage = 10;
@@ -30,9 +31,10 @@ const Contact = () => {
 				},
 				EMAILJS_PUBLIC_KEY,
 			);
-			event.currentTarget.reset();
+      toast.success("Message envoyé avec succès 👍")
 		} catch (err) {
-			console.error("Erreur lors de l’envoi du mail :", err);
+      toast.error("Erreur lors de l'envoi du message 👎")
+			console.error("Erreur lors de l’envoi du message :", err);
 		}
 	};
 
