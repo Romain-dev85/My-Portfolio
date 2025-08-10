@@ -10,6 +10,11 @@
 		color: var(--bg-color-font);
 	}
 
+	a {
+		display: flex;
+		align-items: center;
+	}
+
 	section:first-of-type {
 		display: flex;
 		align-items: center;
@@ -46,10 +51,8 @@
 }
 
 .menu-item {
-	display: block;
 	color: var(--bg-color-font);
-	padding: 0.5em 0;
-	text-decoration: none;
+	margin: 8px;
 }
 
 .bm-cross {
