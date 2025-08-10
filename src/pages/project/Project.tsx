@@ -13,8 +13,8 @@ const Project = () => {
 		<div className="project-container">
 			<h1>PROJETS</h1>
 			<h2>
-				Vous trouverez ici des projets que j'ai crée en formation (en groupe ou
-				en solo), mais également mes propres projets
+				"Vous trouverez ici des projets que j’ai créés en formation (en groupe
+				ou en solo), ainsi que mes projets personnels."
 			</h2>
 			<section>
 				<article>
@@ -26,12 +26,16 @@ const Project = () => {
 					</div>
 					<div>
 						<h3>Gard'Malin</h3>
-						<a href="https://github.com/Romain-dev85/GardMalin" target="blank">
+						<a
+							href="https://github.com/Romain-dev85/GardMalin"
+							target="blank"
+							rel="noopener noreferrer"
+						>
 							<SiGithub />
 						</a>
 						<p>
 							Site web de réservation de crèche. L’objectif était de créer un
-							site afin de pouvoir reservé une place en crèche pour un enfant
+							site afin de pouvoir reservé une place en crèche pour un enfant.
 						</p>
 						<ul>
 							<li>
@@ -64,12 +68,13 @@ const Project = () => {
 						<a
 							href="https://github.com/Romain-dev85/SavorSafari"
 							target="blank"
+							rel="noopener noreferrer"
 						>
 							<SiGithub />
 						</a>
 						<p>
 							Site web permettant d’afficher une liste de recette en
-							sélectionnant un pays
+							sélectionnant un pays.
 						</p>
 						<ul>
 							<li>
@@ -99,12 +104,14 @@ const Project = () => {
 						<a
 							href="https://github.com/Romain-dev85/album_cover"
 							target="blank"
+							rel="noopener noreferrer"
 						>
 							<SiGithub />
 						</a>
 						<p>
-							Site web permettant de réaliser un CRUD complet. Possibilité
-							d’ajouter une pochette d’album, de la modifier et de la supprimer.
+							Application web développée avec un CRUD complet (Create, Read,
+							Update, Delete), permettant la gestion de pochettes d’albums :
+							ajout, modification et suppression, incluant la gestion d’images.
 						</p>
 						<ul>
 							<li>

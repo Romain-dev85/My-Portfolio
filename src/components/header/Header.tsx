@@ -21,7 +21,11 @@ const Header = () => {
 				<section className="nav-menu">
 					<Link to="/">ACCUEIL</Link>
 					<Link to="/project">PROJETS</Link>
-					<a href="/assets/images/CV.auvinet_romain.pdf" target="blank">
+					<a
+						href="/assets/images/CV.auvinet_romain.pdf"
+						target="blank"
+						rel="noopener noreferrer"
+					>
 						CV <MdOutlineFileDownload />
 					</a>
 					<Link to="/">CONTACT</Link>
@@ -52,6 +56,7 @@ const Header = () => {
 				<a
 					href="/assets/images/CV.auvinet_romain.pdf"
 					target="blank"
+					rel="noopener noreferrer"
 					id="cv"
 					className="menu-item"
 					onClick={() => setIsOpen(false)}
