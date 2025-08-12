@@ -44,6 +44,7 @@ const Contact = () => {
 				<label htmlFor="name">
 					Nom
 					<input
+						id="name"
 						type="text"
 						placeholder="Nom"
 						name="name"
@@ -51,18 +52,20 @@ const Contact = () => {
 						maxLength={lengthMaxName}
 					/>
 				</label>
-				<label htmlFor="Email">
+				<label htmlFor="email">
 					Email
 					<input
+						id="email"
 						type="email"
 						placeholder="Adresse mail"
 						name="email"
 						required
 					/>
 				</label>
-				<label htmlFor="Message">
+				<label htmlFor="message">
 					Message
 					<textarea
+						id="message"
 						name="message"
 						placeholder="Message"
 						minLength={lengthMinMessage}
@@ -70,7 +73,31 @@ const Contact = () => {
 						required
 					></textarea>
 				</label>
-				<input type="submit" value="Envoyer" id="input-submit" />
+				<button type="submit" value="Envoyer" className="button-submit">
+					Envoyer
+				</button>
+				<button
+					className="rgpd-button"
+					popoverTarget="rgpd"
+					type="button"
+					popoverTargetAction="show"
+				>
+					Mentions RGPD
+				</button>
+				<div id="rgpd" popover="auto">
+					<p>
+						Les informations recueillies dans ce formulaire sont enregistrées
+						par <strong>Romain Auvinet</strong> afin de répondre à votre
+						message.
+					</p>
+					<p>
+						Elles sont uniquement destinées à <strong>Romain Auvinet</strong>.
+					</p>
+					<p>
+						Conformément au RGPD, vous pouvez exercer vos droits en me
+						contactant à : <strong>r.auvinet@gmail.com</strong>.
+					</p>
+				</div>
 			</form>
 		</div>
 	);
