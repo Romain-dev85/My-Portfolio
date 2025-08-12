@@ -18,7 +18,7 @@ const Project = () => {
 			</h2>
 			<section>
 				<article>
-					<div>
+					<div className="image-container">
 						<img
 							src="/assets/images/gard-malin.png"
 							alt="screenshot Gard'Malin website"
@@ -35,7 +35,7 @@ const Project = () => {
 						</a>
 						<p>
 							Site web de réservation de crèche. L’objectif était de créer un
-							site afin de pouvoir reservé une place en crèche pour un enfant.
+							site afin de pouvoir reserver une place en crèche pour un enfant.
 						</p>
 						<ul>
 							<li>
@@ -57,7 +57,7 @@ const Project = () => {
 					</div>
 				</article>
 				<article>
-					<div>
+					<div className="image-container">
 						<img
 							src="/assets/images/savor-safari.png"
 							alt="screenshot Savor Safari website"
@@ -73,7 +73,7 @@ const Project = () => {
 							<SiGithub />
 						</a>
 						<p>
-							Site web permettant d’afficher une liste de recette en
+							Site web permettant d’afficher une liste de recettes en
 							sélectionnant un pays.
 						</p>
 						<ul>
@@ -93,7 +93,7 @@ const Project = () => {
 					</div>
 				</article>
 				<article>
-					<div>
+					<div className="image-container">
 						<img
 							src="/assets/images/iconic-album-cover.png"
 							alt="screenshot Iconic Album Cover website"
