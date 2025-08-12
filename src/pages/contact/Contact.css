@@ -1,6 +1,18 @@
 .contact-container {
 	text-align: center;
 	padding-top: 48px;
+
+	[popover] {
+		margin: auto;
+		width: 280px;
+		padding: 8px;
+		border-radius: 8px;
+		border: 2px solid var(--light-border-bloc-color);
+	}
+
+	::backdrop {
+		backdrop-filter: blur(3px);
+	}
 }
 
 .contact-form {
@@ -38,10 +50,25 @@
 		height: 220px;
 	}
 
-	input[type="submit"] {
+	.button-submit {
 		width: 100px;
+		border: none;
+		border-radius: 16px;
+		padding: 8px;
 		align-self: end;
 		cursor: pointer;
+		background-color: var(--bg-color-button-and-header);
+		font-family: var(--font-family-body);
+	}
+
+	.rgpd-button {
+		cursor: pointer;
+		border: none;
+		border-radius: 16px;
+		background-color: var(--light-border-bloc-color);
+	}
+	.rgpd-button:hover {
+		text-decoration: underline;
 	}
 }
 
