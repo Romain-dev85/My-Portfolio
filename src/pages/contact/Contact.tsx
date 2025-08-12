@@ -1,4 +1,3 @@
-import React from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
 import { toast } from "react-toastify";
@@ -31,9 +30,9 @@ const Contact = () => {
 				},
 				EMAILJS_PUBLIC_KEY,
 			);
-      toast.success("Message envoyé avec succès 👍")
+			toast.success("Message envoyé avec succès 👍");
 		} catch (err) {
-      toast.error("Erreur lors de l'envoi du message 👎")
+			toast.error("Erreur lors de l'envoi du message 👎");
 			console.error("Erreur lors de l’envoi du message :", err);
 		}
 	};
