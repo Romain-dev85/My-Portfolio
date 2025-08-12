@@ -96,3 +96,9 @@
 		}
 	}
 }
+
+@media screen and (min-width: 992px) {
+	.home-container nav {
+		display: none;
+	}
+}
