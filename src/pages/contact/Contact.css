@@ -66,6 +66,7 @@
 		border: none;
 		border-radius: 16px;
 		background-color: var(--light-border-bloc-color);
+		font-family: var(--font-family-body);
 	}
 	.rgpd-button:hover {
 		text-decoration: underline;
