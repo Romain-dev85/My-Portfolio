@@ -60,6 +60,7 @@
 			max-width: 35ch;
 			padding: 8px;
 			color: var(--color-font);
+			line-height: 1.6;
 		}
 
 		ul {
