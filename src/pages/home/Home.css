@@ -20,6 +20,7 @@
 
 	article p {
 		max-width: 45ch;
+		line-height: 1.6;
 	}
 
 	article h2 {
