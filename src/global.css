@@ -33,12 +33,12 @@ main {
 
 @font-face {
 	font-family: "source-sans-pro";
-	src: url(/public/assets/fonts/SourceSansPro-SemiBold.ttf);
+	src: url(/assets/fonts/SourceSansPro-SemiBold.ttf);
 }
 
 @font-face {
 	font-family: "farro";
-	src: url(/public/assets/fonts/Farro-Regular.ttf);
+	src: url(/assets/fonts/Farro-Regular.ttf);
 }
 
 :root {

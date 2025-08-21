@@ -3,7 +3,7 @@ import "./Footer.css";
 const Footer = () => {
 	return (
 		<div className="footer-container">
-			<p>© Copyright 2025. Réalisé par Romain Auvinet</p>
+			<p>© 2025. Réalisé par Romain Auvinet</p>
 			<nav>
 				<a
 					href="https://github.com/Romain-dev85"
