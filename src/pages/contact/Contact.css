@@ -52,6 +52,7 @@
 		background-color: var(--bg-color-button-and-header);
 		width: 250px;
 		height: 220px;
+		resize: none;
 	}
 
 	.button-submit {
